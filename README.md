@@ -14,8 +14,8 @@ misc/                practice re-attempts, scratch files, notes, JS/Python, patt
 
 ## Naming conventions
 
-- **File / class:** `_<solve order>_<ProblemName>.java`, e.g. `_03_LeaderElement.java`. Numbering restarts in every folder.
-- **LeetCode files** keep the LeetCode number as a suffix when the original file had one, e.g. `_05_FirstBadVersion_278.java`.
+- **GfG files:** `_<solve order>_<ProblemName>.java`, e.g. `_03_LeaderElement.java`. Numbering restarts in every folder.
+- **LeetCode files:** `_<solve order>_<ProblemName>_<LeetCode number>.java`, e.g. `_01_FirstBadVersion_278.java`.
 - **Package:** matches the folder, e.g. `package geeksforgeeks._04_arrays.sliding_window;`.
 - **Finding a problem:** `Ctrl+N` in IntelliJ and type part of the name (or a LeetCode number).
 
@@ -135,40 +135,40 @@ In `leetcode/`, files from the old `Leetcode` folder come first, then `Leetcode 
 
 | Topic | File | Originally |
 |---|---|---|
-| Arrays | [_01_ApplyOpsAndMoveZeros.java](src/leetcode/_01_arrays/_01_ApplyOpsAndMoveZeros.java) * | `Leetcode/Arrays/src/Apply_Ops_and_Move_Zeros.java` |
-| Arrays | [_02_BeautifulPairs.java](src/leetcode/_01_arrays/_02_BeautifulPairs.java) * | `Leetcode/Arrays/src/Beautiful_Pairs.java` |
-| Arrays | [_03_ContainsDuplicateII.java](src/leetcode/_01_arrays/_03_ContainsDuplicateII.java) * | `Leetcode/Arrays/src/Contains_Duplicate_II.java` |
-| Arrays | [_04_DistinctIntegerAfterReversal.java](src/leetcode/_01_arrays/_04_DistinctIntegerAfterReversal.java) * | `Leetcode/Arrays/src/Distinct_Integer_After_Reversal.java` |
-| Arrays | [_05_FindDifferenceOfTwoArrays.java](src/leetcode/_01_arrays/_05_FindDifferenceOfTwoArrays.java) * | `Leetcode/Arrays/src/Find_Difference_Of_Two_Arrays.java` |
-| Arrays | [_06_FindSubArraysWithEqualSum.java](src/leetcode/_01_arrays/_06_FindSubArraysWithEqualSum.java) * | `Leetcode/Arrays/src/Find_SubArrays_With_Equal_Sum.java` |
-| Arrays | [_07_FindTheDuplicateNumber.java](src/leetcode/_01_arrays/_07_FindTheDuplicateNumber.java) * | `Leetcode/Arrays/src/Find_The_Duplicate_Number.java` |
-| Arrays | [_08_FizzBuzz.java](src/leetcode/_01_arrays/_08_FizzBuzz.java) * | `Leetcode/Arrays/src/FizzBuzz.java` |
-| Arrays | [_09_IndexOfFirstAndLastOccurrence.java](src/leetcode/_01_arrays/_09_IndexOfFirstAndLastOccurrence.java) * | `Leetcode/Arrays/src/Index_Of_First_And_Last_Occurrence.java` |
-| Arrays | [_10_IntersectionOfTwoArrays.java](src/leetcode/_01_arrays/_10_IntersectionOfTwoArrays.java) * | `Leetcode/Arrays/src/Intersection_Of_Two_Arrays.java` |
-| Arrays | [_11_KthMissingPositiveNumber.java](src/leetcode/_01_arrays/_11_KthMissingPositiveNumber.java) * | `Leetcode/Arrays/src/Kth_Missing_Positive_Number.java` |
-| Arrays | [_12_LongestEqualSubArray.java](src/leetcode/_01_arrays/_12_LongestEqualSubArray.java) * | `Leetcode/Arrays/src/Longest_Equal_SubArray.java` |
-| Arrays | [_13_LongestHarmoniusSubsequence.java](src/leetcode/_01_arrays/_13_LongestHarmoniusSubsequence.java) * | `Leetcode/Arrays/src/Longest_Harmonius_Subsequence.java` |
-| Arrays | [_14_LongestSubarrayWithAbsDiffK.java](src/leetcode/_01_arrays/_14_LongestSubarrayWithAbsDiffK.java) * | `Leetcode/Arrays/src/Longest_Subarray_With_AbsDiff_K.java` |
-| Arrays | [_15_MajorityElement.java](src/leetcode/_01_arrays/_15_MajorityElement.java) * | `Leetcode/Arrays/src/Majority_Element.java` |
-| Arrays | [_16_MaxAvgSubArrayI.java](src/leetcode/_01_arrays/_16_MaxAvgSubArrayI.java) * | `Leetcode/Arrays/src/Max_Avg_SubArray_I.java` |
-| Arrays | [_17_MaxConsecutiveOnes.java](src/leetcode/_01_arrays/_17_MaxConsecutiveOnes.java) * | `Leetcode/Arrays/src/Max_Consecutive_Ones.java` |
-| Arrays | [_18_MaxNumberOfKSumPairs.java](src/leetcode/_01_arrays/_18_MaxNumberOfKSumPairs.java) * | `Leetcode/Arrays/src/Max_Number_Of_KSum_Pairs.java` |
-| Arrays | [_19_MaxSumWithExactlyKElements.java](src/leetcode/_01_arrays/_19_MaxSumWithExactlyKElements.java) * | `Leetcode/Arrays/src/Max_Sum_With_Exactly_K_Elements.java` |
-| Arrays | [_20_MaximumAscendingSubarraySum.java](src/leetcode/_01_arrays/_20_MaximumAscendingSubarraySum.java) * | `Leetcode/Arrays/src/Maximum_Ascending_Subarray_Sum.java` |
-| Arrays | [_21_MaximumProductOf3Numbers.java](src/leetcode/_01_arrays/_21_MaximumProductOf3Numbers.java) * | `Leetcode/Arrays/src/Maximum_Product_Of_3_Numbers.java` |
-| Arrays | [_22_MissingNumber.java](src/leetcode/_01_arrays/_22_MissingNumber.java) * | `Leetcode/Arrays/src/Missing_Number.java` |
-| Arrays | [_23_NumberOfPairsWithAbsDiffK.java](src/leetcode/_01_arrays/_23_NumberOfPairsWithAbsDiffK.java) * | `Leetcode/Arrays/src/Number_Of_Pairs_With_Abs_Diff_K.java` |
-| Arrays | [_24_PlusOne.java](src/leetcode/_01_arrays/_24_PlusOne.java) * | `Leetcode/Arrays/src/Plus_One.java` |
-| Arrays | [_25_ProductOfArrayExceptSelf.java](src/leetcode/_01_arrays/_25_ProductOfArrayExceptSelf.java) * | `Leetcode/Arrays/src/Product_Of_Array_Except_Self.java` |
-| Arrays | [_26_RemoveDuplicateElements.java](src/leetcode/_01_arrays/_26_RemoveDuplicateElements.java) * | `Leetcode/Arrays/src/Remove_Duplicate_Elements.java` |
-| Arrays | [_27_RemoveElement.java](src/leetcode/_01_arrays/_27_RemoveElement.java) * | `Leetcode/Arrays/src/Remove_Element.java` |
-| Arrays | [_28_RotateArray.java](src/leetcode/_01_arrays/_28_RotateArray.java) * | `Leetcode/Arrays/src/Rotate_Array.java` |
-| Arrays | [_29_SearchInsertPosition.java](src/leetcode/_01_arrays/_29_SearchInsertPosition.java) * | `Leetcode/Arrays/src/Search_Insert_Position.java` |
-| Arrays | [_30_StockBuyAndSell.java](src/leetcode/_01_arrays/_30_StockBuyAndSell.java) * | `Leetcode/Arrays/src/Stock_Buy_And_Sell.java` |
-| Arrays | [_31_ThirdMaximum.java](src/leetcode/_01_arrays/_31_ThirdMaximum.java) * | `Leetcode/Arrays/src/Third_Maximum.java` |
-| Arrays | [_32_ThreeSum.java](src/leetcode/_01_arrays/_32_ThreeSum.java) * | `Leetcode/Arrays/src/Three_Sum.java` |
-| Arrays | [_33_TwoSum.java](src/leetcode/_01_arrays/_33_TwoSum.java) * | `Leetcode/Arrays/src/Two_Sum.java` |
-| Arrays | [_34_TwoSumIISortedArray.java](src/leetcode/_01_arrays/_34_TwoSumIISortedArray.java) * | `Leetcode/Arrays/src/Two_Sum_II_Sorted_Array.java` |
+| Arrays | [_01_ApplyOpsAndMoveZeros_2460.java](src/leetcode/_01_arrays/_01_ApplyOpsAndMoveZeros_2460.java) * | `Leetcode/Arrays/src/Apply_Ops_and_Move_Zeros.java` |
+| Arrays | [_02_BeautifulPairs_2748.java](src/leetcode/_01_arrays/_02_BeautifulPairs_2748.java) * | `Leetcode/Arrays/src/Beautiful_Pairs.java` |
+| Arrays | [_03_ContainsDuplicateII_219.java](src/leetcode/_01_arrays/_03_ContainsDuplicateII_219.java) * | `Leetcode/Arrays/src/Contains_Duplicate_II.java` |
+| Arrays | [_04_DistinctIntegerAfterReversal_2442.java](src/leetcode/_01_arrays/_04_DistinctIntegerAfterReversal_2442.java) * | `Leetcode/Arrays/src/Distinct_Integer_After_Reversal.java` |
+| Arrays | [_05_FindDifferenceOfTwoArrays_2215.java](src/leetcode/_01_arrays/_05_FindDifferenceOfTwoArrays_2215.java) * | `Leetcode/Arrays/src/Find_Difference_Of_Two_Arrays.java` |
+| Arrays | [_06_FindSubArraysWithEqualSum_2395.java](src/leetcode/_01_arrays/_06_FindSubArraysWithEqualSum_2395.java) * | `Leetcode/Arrays/src/Find_SubArrays_With_Equal_Sum.java` |
+| Arrays | [_07_FindTheDuplicateNumber_287.java](src/leetcode/_01_arrays/_07_FindTheDuplicateNumber_287.java) * | `Leetcode/Arrays/src/Find_The_Duplicate_Number.java` |
+| Arrays | [_08_FizzBuzz_412.java](src/leetcode/_01_arrays/_08_FizzBuzz_412.java) * | `Leetcode/Arrays/src/FizzBuzz.java` |
+| Arrays | [_09_IndexOfFirstAndLastOccurrence_34.java](src/leetcode/_01_arrays/_09_IndexOfFirstAndLastOccurrence_34.java) * | `Leetcode/Arrays/src/Index_Of_First_And_Last_Occurrence.java` |
+| Arrays | [_10_IntersectionOfTwoArrays_349.java](src/leetcode/_01_arrays/_10_IntersectionOfTwoArrays_349.java) * | `Leetcode/Arrays/src/Intersection_Of_Two_Arrays.java` |
+| Arrays | [_11_KthMissingPositiveNumber_1539.java](src/leetcode/_01_arrays/_11_KthMissingPositiveNumber_1539.java) * | `Leetcode/Arrays/src/Kth_Missing_Positive_Number.java` |
+| Arrays | [_12_LongestEqualSubArray_2831.java](src/leetcode/_01_arrays/_12_LongestEqualSubArray_2831.java) * | `Leetcode/Arrays/src/Longest_Equal_SubArray.java` |
+| Arrays | [_13_LongestHarmoniusSubsequence_594.java](src/leetcode/_01_arrays/_13_LongestHarmoniusSubsequence_594.java) * | `Leetcode/Arrays/src/Longest_Harmonius_Subsequence.java` |
+| Arrays | [_14_LongestSubarrayWithAbsDiffK_1438.java](src/leetcode/_01_arrays/_14_LongestSubarrayWithAbsDiffK_1438.java) * | `Leetcode/Arrays/src/Longest_Subarray_With_AbsDiff_K.java` |
+| Arrays | [_15_MajorityElement_169.java](src/leetcode/_01_arrays/_15_MajorityElement_169.java) * | `Leetcode/Arrays/src/Majority_Element.java` |
+| Arrays | [_16_MaxAvgSubArrayI_643.java](src/leetcode/_01_arrays/_16_MaxAvgSubArrayI_643.java) * | `Leetcode/Arrays/src/Max_Avg_SubArray_I.java` |
+| Arrays | [_17_MaxConsecutiveOnes_485.java](src/leetcode/_01_arrays/_17_MaxConsecutiveOnes_485.java) * | `Leetcode/Arrays/src/Max_Consecutive_Ones.java` |
+| Arrays | [_18_MaxNumberOfKSumPairs_1679.java](src/leetcode/_01_arrays/_18_MaxNumberOfKSumPairs_1679.java) * | `Leetcode/Arrays/src/Max_Number_Of_KSum_Pairs.java` |
+| Arrays | [_19_MaxSumWithExactlyKElements_2656.java](src/leetcode/_01_arrays/_19_MaxSumWithExactlyKElements_2656.java) * | `Leetcode/Arrays/src/Max_Sum_With_Exactly_K_Elements.java` |
+| Arrays | [_20_MaximumAscendingSubarraySum_1800.java](src/leetcode/_01_arrays/_20_MaximumAscendingSubarraySum_1800.java) * | `Leetcode/Arrays/src/Maximum_Ascending_Subarray_Sum.java` |
+| Arrays | [_21_MaximumProductOf3Numbers_628.java](src/leetcode/_01_arrays/_21_MaximumProductOf3Numbers_628.java) * | `Leetcode/Arrays/src/Maximum_Product_Of_3_Numbers.java` |
+| Arrays | [_22_MissingNumber_268.java](src/leetcode/_01_arrays/_22_MissingNumber_268.java) * | `Leetcode/Arrays/src/Missing_Number.java` |
+| Arrays | [_23_NumberOfPairsWithAbsDiffK_2006.java](src/leetcode/_01_arrays/_23_NumberOfPairsWithAbsDiffK_2006.java) * | `Leetcode/Arrays/src/Number_Of_Pairs_With_Abs_Diff_K.java` |
+| Arrays | [_24_PlusOne_66.java](src/leetcode/_01_arrays/_24_PlusOne_66.java) * | `Leetcode/Arrays/src/Plus_One.java` |
+| Arrays | [_25_ProductOfArrayExceptSelf_238.java](src/leetcode/_01_arrays/_25_ProductOfArrayExceptSelf_238.java) * | `Leetcode/Arrays/src/Product_Of_Array_Except_Self.java` |
+| Arrays | [_26_RemoveDuplicateElements_26.java](src/leetcode/_01_arrays/_26_RemoveDuplicateElements_26.java) * | `Leetcode/Arrays/src/Remove_Duplicate_Elements.java` |
+| Arrays | [_27_RemoveElement_27.java](src/leetcode/_01_arrays/_27_RemoveElement_27.java) * | `Leetcode/Arrays/src/Remove_Element.java` |
+| Arrays | [_28_RotateArray_189.java](src/leetcode/_01_arrays/_28_RotateArray_189.java) * | `Leetcode/Arrays/src/Rotate_Array.java` |
+| Arrays | [_29_SearchInsertPosition_35.java](src/leetcode/_01_arrays/_29_SearchInsertPosition_35.java) * | `Leetcode/Arrays/src/Search_Insert_Position.java` |
+| Arrays | [_30_StockBuyAndSell_121.java](src/leetcode/_01_arrays/_30_StockBuyAndSell_121.java) * | `Leetcode/Arrays/src/Stock_Buy_And_Sell.java` |
+| Arrays | [_31_ThirdMaximum_414.java](src/leetcode/_01_arrays/_31_ThirdMaximum_414.java) * | `Leetcode/Arrays/src/Third_Maximum.java` |
+| Arrays | [_32_ThreeSum_15.java](src/leetcode/_01_arrays/_32_ThreeSum_15.java) * | `Leetcode/Arrays/src/Three_Sum.java` |
+| Arrays | [_33_TwoSum_1.java](src/leetcode/_01_arrays/_33_TwoSum_1.java) * | `Leetcode/Arrays/src/Two_Sum.java` |
+| Arrays | [_34_TwoSumIISortedArray_167.java](src/leetcode/_01_arrays/_34_TwoSumIISortedArray_167.java) * | `Leetcode/Arrays/src/Two_Sum_II_Sorted_Array.java` |
 | Arrays | [_35_LongestEvenOddSubarrayThreshold_2760.java](src/leetcode/_01_arrays/_35_LongestEvenOddSubarrayThreshold_2760.java) | `Leetcode/Arrays_II/src/_01_LongestEvenOddSubarrayThreshold_2760.java` |
 | Arrays | [_36_LongestIncreasingSubsequence_300.java](src/leetcode/_01_arrays/_36_LongestIncreasingSubsequence_300.java) | `Leetcode/Arrays_II/src/_02_LongestIncreasingSubsequence_300.java` |
 | Arrays | [_37_ArrayPartition_561.java](src/leetcode/_01_arrays/_37_ArrayPartition_561.java) | `Leetcode/Arrays_II/src/_03_ArrayPartition_561.java` |
@@ -269,43 +269,43 @@ In `leetcode/`, files from the old `Leetcode` folder come first, then `Leetcode 
 | Dynamic Programming | [_01_PascalTriangle_118.java](src/leetcode/_10_dynamic_programming/_01_PascalTriangle_118.java) | `Leetcode 2/Dynamic Programming/Easy/_01_PascalTriangle_118.java` |
 | Dynamic Programming | [_02_PascalTrianglePart2_119.java](src/leetcode/_10_dynamic_programming/_02_PascalTrianglePart2_119.java) | `Leetcode 2/Dynamic Programming/Easy/_02_PascalTrianglePart2_119.java` |
 | Dynamic Programming | [_03_WordBreak_139.java](src/leetcode/_10_dynamic_programming/_03_WordBreak_139.java) | `Leetcode 2/Dynamic Programming/Medium/_01_WordBreak_139.java` |
-| Bit Manipulation | [_01_AddBinaryString.java](src/leetcode/_11_bit_manipulation/_01_AddBinaryString.java) * | `Leetcode/Bit Manipulation/Add_Binary_String.java` |
-| Bit Manipulation | [_02_AlternatingBits.java](src/leetcode/_11_bit_manipulation/_02_AlternatingBits.java) * | `Leetcode/Bit Manipulation/Alternating_Bits.java` |
-| Bit Manipulation | [_03_CountingBits.java](src/leetcode/_11_bit_manipulation/_03_CountingBits.java) * | `Leetcode/Bit Manipulation/Counting_Bits.java` |
-| Bit Manipulation | [_04_Divide2Integers.java](src/leetcode/_11_bit_manipulation/_04_Divide2Integers.java) * | `Leetcode/Bit Manipulation/Divide_2_Integers.java` |
-| Bit Manipulation | [_05_HammingDistance.java](src/leetcode/_11_bit_manipulation/_05_HammingDistance.java) * | `Leetcode/Bit Manipulation/Hamming_Distance.java` |
-| Bit Manipulation | [_06_MaximumOddBinaryNumber.java](src/leetcode/_11_bit_manipulation/_06_MaximumOddBinaryNumber.java) * | `Leetcode/Bit Manipulation/Maximum_Odd_Binary_Number.java` |
-| Bit Manipulation | [_07_NumberComplement.java](src/leetcode/_11_bit_manipulation/_07_NumberComplement.java) * | `Leetcode/Bit Manipulation/Number_Complement.java` |
-| Bit Manipulation | [_08_ReverseBits.java](src/leetcode/_11_bit_manipulation/_08_ReverseBits.java) * | `Leetcode/Bit Manipulation/Reverse_Bits.java` |
-| Bit Manipulation | [_09_SingleNumber.java](src/leetcode/_11_bit_manipulation/_09_SingleNumber.java) * | `Leetcode/Bit Manipulation/Single_Number.java` |
-| Bit Manipulation | [_10_SingleNumberII.java](src/leetcode/_11_bit_manipulation/_10_SingleNumberII.java) * | `Leetcode/Bit Manipulation/Single_Number_II.java` |
-| Bit Manipulation | [_11_XORArray.java](src/leetcode/_11_bit_manipulation/_11_XORArray.java) * | `Leetcode/Bit Manipulation/XOR_Array.java` |
+| Bit Manipulation | [_01_AddBinaryString_67.java](src/leetcode/_11_bit_manipulation/_01_AddBinaryString_67.java) * | `Leetcode/Bit Manipulation/Add_Binary_String.java` |
+| Bit Manipulation | [_02_AlternatingBits_693.java](src/leetcode/_11_bit_manipulation/_02_AlternatingBits_693.java) * | `Leetcode/Bit Manipulation/Alternating_Bits.java` |
+| Bit Manipulation | [_03_CountingBits_338.java](src/leetcode/_11_bit_manipulation/_03_CountingBits_338.java) * | `Leetcode/Bit Manipulation/Counting_Bits.java` |
+| Bit Manipulation | [_04_Divide2Integers_29.java](src/leetcode/_11_bit_manipulation/_04_Divide2Integers_29.java) * | `Leetcode/Bit Manipulation/Divide_2_Integers.java` |
+| Bit Manipulation | [_05_HammingDistance_461.java](src/leetcode/_11_bit_manipulation/_05_HammingDistance_461.java) * | `Leetcode/Bit Manipulation/Hamming_Distance.java` |
+| Bit Manipulation | [_06_MaximumOddBinaryNumber_2864.java](src/leetcode/_11_bit_manipulation/_06_MaximumOddBinaryNumber_2864.java) * | `Leetcode/Bit Manipulation/Maximum_Odd_Binary_Number.java` |
+| Bit Manipulation | [_07_NumberComplement_476.java](src/leetcode/_11_bit_manipulation/_07_NumberComplement_476.java) * | `Leetcode/Bit Manipulation/Number_Complement.java` |
+| Bit Manipulation | [_08_ReverseBits_190.java](src/leetcode/_11_bit_manipulation/_08_ReverseBits_190.java) * | `Leetcode/Bit Manipulation/Reverse_Bits.java` |
+| Bit Manipulation | [_09_SingleNumber_136.java](src/leetcode/_11_bit_manipulation/_09_SingleNumber_136.java) * | `Leetcode/Bit Manipulation/Single_Number.java` |
+| Bit Manipulation | [_10_SingleNumberII_137.java](src/leetcode/_11_bit_manipulation/_10_SingleNumberII_137.java) * | `Leetcode/Bit Manipulation/Single_Number_II.java` |
+| Bit Manipulation | [_11_XORArray_1486.java](src/leetcode/_11_bit_manipulation/_11_XORArray_1486.java) * | `Leetcode/Bit Manipulation/XOR_Array.java` |
 | Bit Manipulation | [_12_SortElementsByCountOfSetBits_1356.java](src/leetcode/_11_bit_manipulation/_12_SortElementsByCountOfSetBits_1356.java) | `Leetcode 2/Bit Manipulation/Easy/_01_SortElementsByCountOfSetBits_1356.java` |
 | Bit Manipulation | [_13_BitwiseAndOfNumbersInRange_201.java](src/leetcode/_11_bit_manipulation/_13_BitwiseAndOfNumbersInRange_201.java) | `Leetcode 2/Bit Manipulation/Medium/_01_BitwiseAndOfNumbersInRange_201.java` |
-| Math | [_01_AddDigits.java](src/leetcode/_12_math/_01_AddDigits.java) * | `Leetcode/Mathematics/Add_Digits.java` |
-| Math | [_02_BeautifulPairs.java](src/leetcode/_12_math/_02_BeautifulPairs.java) * | `Leetcode/Mathematics/Beautiful_Pairs.java` |
-| Math | [_03_ClosestPrimePalindrome.java](src/leetcode/_12_math/_03_ClosestPrimePalindrome.java) * | `Leetcode/Mathematics/Closest_Prime_Palindrome.java` |
-| Math | [_04_CountGoodNumbers.java](src/leetcode/_12_math/_04_CountGoodNumbers.java) * | `Leetcode/Mathematics/Count_Good_Numbers.java` |
-| Math | [_05_DoubleReversal.java](src/leetcode/_12_math/_05_DoubleReversal.java) * | `Leetcode/Mathematics/Double_Reversal.java` |
-| Math | [_06_GCDOfArray.java](src/leetcode/_12_math/_06_GCDOfArray.java) * | `Leetcode/Mathematics/GCD_of_Array.java` |
-| Math | [_07_HappyNumber.java](src/leetcode/_12_math/_07_HappyNumber.java) * | `Leetcode/Mathematics/Happy_Number.java` |
-| Math | [_08_KthFactorOfN.java](src/leetcode/_12_math/_08_KthFactorOfN.java) * | `Leetcode/Mathematics/Kth_Factor_Of_N.java` |
-| Math | [_09_NumberOfCommonFactors.java](src/leetcode/_12_math/_09_NumberOfCommonFactors.java) * | `Leetcode/Mathematics/Number_of_Common_Factors.java` |
-| Math | [_10_PalindromeNumber.java](src/leetcode/_12_math/_10_PalindromeNumber.java) * | `Leetcode/Mathematics/Palindrome_Number.java` |
-| Math | [_11_PerfectNumber.java](src/leetcode/_12_math/_11_PerfectNumber.java) * | `Leetcode/Mathematics/Perfect_Number.java` |
-| Math | [_12_PowerOf2.java](src/leetcode/_12_math/_12_PowerOf2.java) * | `Leetcode/Mathematics/Power_of_2.java` |
-| Math | [_13_PowerOf3.java](src/leetcode/_12_math/_13_PowerOf3.java) * | `Leetcode/Mathematics/Power_of_3.java` |
-| Math | [_14_PowerOf4.java](src/leetcode/_12_math/_14_PowerOf4.java) * | `Leetcode/Mathematics/Power_Of_4.java` |
-| Math | [_15_PowerXN.java](src/leetcode/_12_math/_15_PowerXN.java) * | `Leetcode/Mathematics/Power_X_N.java` |
-| Math | [_16_ReverseInteger.java](src/leetcode/_12_math/_16_ReverseInteger.java) * | `Leetcode/Mathematics/Reverse_Integer.java` |
-| Math | [_17_SelfDividingNumbers.java](src/leetcode/_12_math/_17_SelfDividingNumbers.java) * | `Leetcode/Mathematics/Self_Dividing_Numbers.java` |
-| Math | [_18_SpecialNums.java](src/leetcode/_12_math/_18_SpecialNums.java) * | `Leetcode/Mathematics/Special_Nums.java` |
-| Math | [_19_SqrtX.java](src/leetcode/_12_math/_19_SqrtX.java) * | `Leetcode/Mathematics/Sqrt_X.java` |
-| Math | [_20_SumOfNumberAndItsReverse.java](src/leetcode/_12_math/_20_SumOfNumberAndItsReverse.java) * | `Leetcode/Mathematics/Sum_Of_Number_and_Its_Reverse.java` |
-| Math | [_21_UglyNum.java](src/leetcode/_12_math/_21_UglyNum.java) * | `Leetcode/Mathematics/Ugly_Num.java` |
+| Math | [_01_AddDigits_258.java](src/leetcode/_12_math/_01_AddDigits_258.java) * | `Leetcode/Mathematics/Add_Digits.java` |
+| Math | [_02_BeautifulPairs_2748.java](src/leetcode/_12_math/_02_BeautifulPairs_2748.java) * | `Leetcode/Mathematics/Beautiful_Pairs.java` |
+| Math | [_03_ClosestPrimePalindrome_866.java](src/leetcode/_12_math/_03_ClosestPrimePalindrome_866.java) * | `Leetcode/Mathematics/Closest_Prime_Palindrome.java` |
+| Math | [_04_CountGoodNumbers_1922.java](src/leetcode/_12_math/_04_CountGoodNumbers_1922.java) * | `Leetcode/Mathematics/Count_Good_Numbers.java` |
+| Math | [_05_DoubleReversal_2119.java](src/leetcode/_12_math/_05_DoubleReversal_2119.java) * | `Leetcode/Mathematics/Double_Reversal.java` |
+| Math | [_06_GCDOfArray_1979.java](src/leetcode/_12_math/_06_GCDOfArray_1979.java) * | `Leetcode/Mathematics/GCD_of_Array.java` |
+| Math | [_07_HappyNumber_202.java](src/leetcode/_12_math/_07_HappyNumber_202.java) * | `Leetcode/Mathematics/Happy_Number.java` |
+| Math | [_08_KthFactorOfN_1492.java](src/leetcode/_12_math/_08_KthFactorOfN_1492.java) * | `Leetcode/Mathematics/Kth_Factor_Of_N.java` |
+| Math | [_09_NumberOfCommonFactors_2427.java](src/leetcode/_12_math/_09_NumberOfCommonFactors_2427.java) * | `Leetcode/Mathematics/Number_of_Common_Factors.java` |
+| Math | [_10_PalindromeNumber_9.java](src/leetcode/_12_math/_10_PalindromeNumber_9.java) * | `Leetcode/Mathematics/Palindrome_Number.java` |
+| Math | [_11_PerfectNumber_507.java](src/leetcode/_12_math/_11_PerfectNumber_507.java) * | `Leetcode/Mathematics/Perfect_Number.java` |
+| Math | [_12_PowerOf2_231.java](src/leetcode/_12_math/_12_PowerOf2_231.java) * | `Leetcode/Mathematics/Power_of_2.java` |
+| Math | [_13_PowerOf3_326.java](src/leetcode/_12_math/_13_PowerOf3_326.java) * | `Leetcode/Mathematics/Power_of_3.java` |
+| Math | [_14_PowerOf4_342.java](src/leetcode/_12_math/_14_PowerOf4_342.java) * | `Leetcode/Mathematics/Power_Of_4.java` |
+| Math | [_15_PowerXN_50.java](src/leetcode/_12_math/_15_PowerXN_50.java) * | `Leetcode/Mathematics/Power_X_N.java` |
+| Math | [_16_ReverseInteger_7.java](src/leetcode/_12_math/_16_ReverseInteger_7.java) * | `Leetcode/Mathematics/Reverse_Integer.java` |
+| Math | [_17_SelfDividingNumbers_728.java](src/leetcode/_12_math/_17_SelfDividingNumbers_728.java) * | `Leetcode/Mathematics/Self_Dividing_Numbers.java` |
+| Math | [_18_SpecialNums_3233.java](src/leetcode/_12_math/_18_SpecialNums_3233.java) * | `Leetcode/Mathematics/Special_Nums.java` |
+| Math | [_19_SqrtX_69.java](src/leetcode/_12_math/_19_SqrtX_69.java) * | `Leetcode/Mathematics/Sqrt_X.java` |
+| Math | [_20_SumOfNumberAndItsReverse_2443.java](src/leetcode/_12_math/_20_SumOfNumberAndItsReverse_2443.java) * | `Leetcode/Mathematics/Sum_Of_Number_and_Its_Reverse.java` |
+| Math | [_21_UglyNum_263.java](src/leetcode/_12_math/_21_UglyNum_263.java) * | `Leetcode/Mathematics/Ugly_Num.java` |
 | Math | [_22_UglyNumIII_1201.java](src/leetcode/_12_math/_22_UglyNumIII_1201.java) * | `Leetcode/Mathematics/Ugly_Num_III_1201.java` |
 | Math | [_23_UglyNumber_264.java](src/leetcode/_12_math/_23_UglyNumber_264.java) * | `Leetcode/Mathematics/Ugly_Number_264.java` |
-| Math | [_24_ValidPerfectSquare.java](src/leetcode/_12_math/_24_ValidPerfectSquare.java) * | `Leetcode/Mathematics/Valid_Perfect_Square.java` |
+| Math | [_24_ValidPerfectSquare_367.java](src/leetcode/_12_math/_24_ValidPerfectSquare_367.java) * | `Leetcode/Mathematics/Valid_Perfect_Square.java` |
 | Math | [_25_HappyNumber_202.java](src/leetcode/_12_math/_25_HappyNumber_202.java) | `Leetcode 2/Math/_01_Easy/_01_HappyNumber_202.java` |
 | Math | [_26_ClimbingStairs_70.java](src/leetcode/_12_math/_26_ClimbingStairs_70.java) | `Leetcode 2/Math/_01_Easy/_02_ClimbingStairs_70.java` |
 | Math | [_27_AddStrings_415.java](src/leetcode/_12_math/_27_AddStrings_415.java) | `Leetcode 2/Math/_01_Easy/_03_AddStrings_415.java` |
