@@ -1,0 +1,44 @@
+// List to hold all the permutations
+    private static final List<List<Integer>> permutations = new ArrayList<>();
+
+    // Temporary list to hold the current permutation
+    private static final List<Integer> currentPermutation = new ArrayList<>();
+
+    // Visited array to keep track of the elements already included in the permutation
+    private static boolean[] visited;
+
+    // Array of numbers to create permutations from
+    private static int[] elements;
+
+    // Method to initiate the process of finding all permutations
+    public static List<List<Integer>> permute(int[] nums) {
+        elements = nums;
+        visited = new boolean[nums.length];
+        backtrack(0);
+        return permutations;
+    }
+
+    // Helper method to perform backtracking
+    private static void backtrack(int index) {
+        // Base case: if the permutation size is equal to the number of elements, add it to the answer
+        if (index == elements.length) {
+            permutations.add(new ArrayList<>(currentPermutation));
+            return;
+        }
+
+        // Iterate through the elements array
+        for (int j = 0; j < elements.length; ++j) {
+            // If the element at index j has not been visited, include it in the permutation
+            if (!visited[j]) {
+                // Mark the element at index j as visited
+                visited[j] = true;
+                // Add the element to the current permutation
+                currentPermutation.add(elements[j]);
+                // Continue to the next level of depth (next index)
+                backtrack(index + 1);
+                // Backtrack: remove the last element added and mark it as not visited
+                currentPermutation.remove(currentPermutation.size() - 1);
+                visited[j] = false;
+            }
+        }
+    }

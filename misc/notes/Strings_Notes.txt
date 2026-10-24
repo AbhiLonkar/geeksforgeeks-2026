@@ -1,0 +1,73 @@
+128 total ascii characters
+Why only 128? Because we used to use parity bit concept.
+strings have limited set of characters
+In java its utf 16 and 16 bits
+
+utf 16 is standard unicode
+its where we use 16 bits to store characters
+
+Ve
+
+
+import java.util.*;
+public class _01_PermutationsOfArray {
+    // TODO - Given an integer array, print all permutations of that array
+    // ex. {1,2,3} -> {1,2,3}, {1,3,2}, {2,1,3}, {2,3,1}, {3,1,2}, {3,2,1}
+    // ! Note for length n there'll be n! number of permutations
+
+    // ? Approach - Iterate through the array, get the currEl
+    // ? Create array with remaining elements, add the currEl to the result array
+    // ? Next call recursively on this remaining element array
+    // ? get the currEl, create array with remaining elements, add the currEl to the result array
+    // ? Next call recursively on this remaining element array
+
+    // ex. {1,2,3}
+    // i = 0, resultArray = {}, currEl = 1, remainingArray = {2,3}, resultArray.add(currEl) -> {1}
+    // *      Next recursive call on {2,3},
+
+    //        i = 0, resultArray = {1}, currEl = 2, remainingArray = {3}, resultArray.add(currEl) -> {1,2}
+    //               Next recursive call on {3}, resultArray = {1,2}, currEl = 3, remainingArray = {}, resultArray.add(currEl) -> {1,2,3}
+    //        Since remaining array length is 0 we print result array
+
+    //        i = 1, resultArray = {1}, currEl = 3, remainingArray = {2}, resultArray.add(currEl) -> {1,3}
+    //               Next recursive call on {2}, resultArray = {1,3}, currEl = 2, remainingArray = {}, resultArray.add(currEl) -> {1,3,2}
+    //        Since remaining array length is 0 we print result array
+
+    // ! Separator //
+
+    // i = 1, resultArray = {}, currEl = 2, remainingArray = {1,3}, resultArray.add(currEl) -> {2}
+    // *      Next recursive call on {1,3},
+
+    //        i = 0, resultArray = {2}, currEl = 1, remainingArray = {3}, resultArray.add(currEl) -> {2,1}
+    //               Next recursive call on {3}, resultArray = {2,1}, currEl = 3, remainingArray = {}, resultArray.add(currEl) -> {2,1,3}
+    //        Since remaining array length is 0 we print result array
+
+    //        i = 1, resultArray = {2}, currEl = 3, remainingArray = {1}, resultArray.add(currEl) -> {2,3}
+    //               Next recursive call on {1}, resultArray = {2,3}, currEl = 1, remainingArray = {}, resultArray.add(currEl) -> {2,3,1}
+    //        Since remaining array length is 0 we print result array
+
+    // ! Separator //
+
+    // i = 0, resultArray = {}, currEl = 2, remainingArray = {1,2}, resultArray.add(currEl) -> {3}
+    // *      Next recursive call on {1,2},
+
+    //        i = 0, resultArray = {3}, currEl = 1, remainingArray = {2}, resultArray.add(currEl) -> {3,1}
+    //               Next recursive call on {2}, resultArray = {3,1}, currEl = 2, remainingArray = {}, resultArray.add(currEl) -> {3,1,2}
+    //        Since remaining array length is 0 we print result array
+
+    //        i = 1, resultArray = {2}, currEl = 2, remainingArray = {1}, resultArray.add(currEl) -> {3,2}
+    //               Next recursive call on {1}, resultArray = {3,2}, currEl = 1, remainingArray = {}, resultArray.add(currEl) -> {3,2,1}
+    //        Since remaining array length is 0 we print result array
+
+    public static void printPermutations(ArrayList<Integer> arr, ArrayList<Integer> result) {
+        for (int i = 0; i<arr.size(); i++){
+            int currEl = arr.get(i);
+
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {1,2,3};
+        elements =
+    }
+}
